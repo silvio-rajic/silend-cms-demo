@@ -1,0 +1,75 @@
+# Pages CMS – legt fest, was der Kunde unter app.pagescms.org bearbeiten darf.
+# Doku: https://pagescms.org/docs/configuration/
+media:
+  input: images
+  output: images
+
+content:
+  - name: startseite
+    label: Startseite
+    type: file
+    path: content/startseite.json
+    format: json
+    fields:
+      - name: name
+        label: Name des Cafés
+        type: string
+        required: true
+      - name: titel
+        label: Große Überschrift
+        type: string
+        required: true
+      - name: untertitel
+        label: Text unter der Überschrift
+        type: text
+      - name: bild
+        label: Titelbild
+        type: image
+      - name: hinweis
+        label: Hinweis-Banner (leer lassen = kein Banner)
+        type: string
+      - name: oeffnungszeiten
+        label: Öffnungszeiten
+        type: object
+        list: true
+        fields:
+          - name: tage
+            label: Tage
+            type: string
+          - name: zeit
+            label: Uhrzeit
+            type: string
+      - name: karte
+        label: Speisekarte
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: beschreibung
+            label: Beschreibung
+            type: string
+          - name: preis
+            label: Preis
+            type: string
+      - name: aktuelles
+        label: Aktuelles
+        type: object
+        list: true
+        fields:
+          - name: titel
+            label: Überschrift
+            type: string
+          - name: datum
+            label: Datum
+            type: date
+          - name: text
+            label: Text
+            type: text
+      - name: adresse
+        label: Adresse
+        type: string
+      - name: email
+        label: E-Mail
+        type: string

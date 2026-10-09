@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{name}} – {{titel}}</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p class="demo-bar">Konzept-Demo von <strong>Silend</strong> – {{name}} ist fiktiv. Alle Inhalte sind über Pages CMS bearbeitbar.</p>
+  {{hinweis}}
+  <header class="hero">
+    <img src="{{bild}}" alt="" class="hero-img">
+    <div class="hero-text">
+      <p class="kicker">{{name}}</p>
+      <h1>{{titel}}</h1>
+      <p>{{untertitel}}</p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Unsere Karte</h2>
+      <ul class="karte">{{karte}}</ul>
+    </section>
+
+    <section class="zwei">
+      <div>
+        <h2>Öffnungszeiten</h2>
+        <dl class="zeiten">{{oeffnungszeiten}}</dl>
+      </div>
+      <div>
+        <h2>Aktuelles</h2>
+        {{aktuelles}}
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>{{name}}</strong> · {{adresse}} · {{email}}</p>
+  </footer>
+</body>
+</html>

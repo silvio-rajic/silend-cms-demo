@@ -1,0 +1,27 @@
+{
+  "name": "Café Mahlwerk",
+  "titel": "Frisch geröstet. Jeden Morgen.",
+  "untertitel": "Specialty Coffee, hausgemachter Kuchen und ein Platz am Fenster – mitten in der Altstadt.",
+  "bild": "images/hero.svg",
+  "hinweis": "Diesen Samstag: Latte-Art-Workshop ab 15 Uhr – noch 3 Plätze frei!",
+  "oeffnungszeiten": [
+    { "tage": "Montag – Freitag", "zeit": "7:30 – 18:00 Uhr" },
+    { "tage": "Samstag", "zeit": "9:00 – 18:00 Uhr" },
+    { "tage": "Sonntag", "zeit": "10:00 – 17:00 Uhr" }
+  ],
+  "karte": [
+    { "name": "Espresso", "beschreibung": "Unsere Hausmischung, kräftig und schokoladig", "preis": "2,40 €" },
+    { "name": "Flat White", "beschreibung": "Doppelter Espresso mit samtiger Milch", "preis": "3,90 €" },
+    { "name": "Filterkaffee", "beschreibung": "Wechselnde Single Origins, frisch aufgebrüht", "preis": "3,20 €" },
+    { "name": "Zimtschnecke", "beschreibung": "Jeden Morgen frisch aus dem Ofen", "preis": "3,50 €" }
+  ],
+  "aktuelles": [
+    {
+      "titel": "Neue Bohne aus Äthiopien",
+      "datum": "2026-10-01",
+      "text": "Ab sofort gibt es bei uns einen Yirgacheffe mit Noten von Bergamotte und Pfirsich.\n\nProbieren Sie ihn als Filterkaffee – oder nehmen Sie eine Tüte für zu Hause mit."
+    }
+  ],
+  "adresse": "Marktplatz 7, 12345 Musterstadt",
+  "email": "hallo@cafe-mahlwerk.example"
+}
